@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <style>
+        h1{
+            font-size: 42;
+            text-align: center;
+        }
+
+        #container{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        div div{
+            border: 2px solid #000;
+            width: 350px;
+            padding: 10px;
+            transition: transform 0.3s ease; /*for hover*/
+            
+        }
+
+        /*hover for change the image size*/
+        div div:hover{
+            transform: scale(1.1); 
+        }
+
+        div img{
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>What I do</h1>
+    <div id="container">
+        <div>
+            <img src="media/ai.png" alt="web dev">
+            <h2>AI Applications</h2>
+            <p>Developing AI-driven applications by designing and implementing predictive and classification models, with expertise in deploying these models on cloud platforms such as Azure and AWS to ensure scalability and efficiency.</p>
+        </div>
+        <div>
+            <img src="media/web.png" alt="ai service">
+            <h2>Web Development</h2>
+            <p>Creating dynamic and responsive web applications by leveraging modern development frameworks and technologies, with a focus on delivering user-friendly interfaces and deploying scalable solutions on cloud platforms.</p>
+        </div>
+    </div>
+
+</body>
+</html>

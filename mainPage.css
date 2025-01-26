@@ -1,0 +1,81 @@
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+header{
+    background-color: #F2F2F2;
+    text-align: center;
+    color: #D92525;
+    border: #F2F2F2 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*order content in navabar*/
+nav{
+    background-color: #D92525;
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+/*handle links*/
+nav a{
+    text-decoration: none;
+    color:  #eee;
+    padding: 10px;
+}
+
+
+/* the big container*/
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*left side*/
+#leftView, #rightView{
+    background-color: #044040;
+    color: #F2F2F2;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/*left side image*/
+#leftView img{
+    width: 200px;
+}
+
+
+/*mainVew frame*/
+div iframe{
+    width: 1000px;
+    height: 550px;
+}
+
+
+.quote{
+    width: 90%;
+    padding: 10px;
+    background-color:#888 ;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+iframe{
+    border: none;
+}
